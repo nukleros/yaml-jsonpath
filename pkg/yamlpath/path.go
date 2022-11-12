@@ -1,8 +1,6 @@
-/*
- * Copyright 2020 VMware, Inc.
- *
- * SPDX-License-Identifier: Apache-2.0
- */
+// Copyright 2022 Nukleros
+// Copyright 2021-2022 VMware, Inc.
+// SPDX-License-Identifier: MIT
 
 package yamlpath
 
@@ -441,10 +439,8 @@ func filterThen(filterLexemes []lexeme, p *Path) *Path {
 					its = append(its, compose(yit.FromNode(c), p, root))
 				}
 			}
-		} else {
-			if filter(node, root) {
-				its = append(its, compose(yit.FromNode(node), p, root))
-			}
+		} else if filter(node, root) {
+			its = append(its, compose(yit.FromNode(node), p, root))
 		}
 		return yit.FromIterators(its...)
 	})

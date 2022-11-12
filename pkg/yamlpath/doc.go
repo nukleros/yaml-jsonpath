@@ -1,8 +1,5 @@
-/*
- * Copyright 2020 VMware, Inc.
- *
- * SPDX-License-Identifier: Apache-2.0
- */
+// Copyright 2022 Nukleros
+// Copyright 2021-2022 VMware, Inc.
+// SPDX-License-Identifier: MIT
 
-// Package yamlpath provides YAML node searching using path notation.
 package yamlpath

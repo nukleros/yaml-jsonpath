@@ -1,8 +1,6 @@
-/*
- * Copyright 2020 VMware, Inc.
- *
- * SPDX-License-Identifier: Apache-2.0
- */
+// Copyright 2022 Nukleros
+// Copyright 2021-2022 VMware, Inc.
+// SPDX-License-Identifier: MIT
 
 package main
 
@@ -14,7 +12,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/vmware-labs/yaml-jsonpath/pkg/yamlpath"
+	"github.com/nukleros/yaml-jsonpath/pkg/yamlpath"
 	"gopkg.in/yaml.v3"
 )
 
@@ -53,7 +51,7 @@ textarea, input {
 <textarea name="YAML document" cols="80" rows="30" placeholder="YAML...">{{ .YAML }}</textarea>
 </pre><br /><br />
 <label>JSON path</label>
-(<a href="https://github.com/vmware-labs/yaml-jsonpath/tree/{{ .Version }}#syntax" target="_blank">syntax</a>):<br />
+(<a href="https://github.com/nukleros/yaml-jsonpath/tree/{{ .Version }}#syntax" target="_blank">syntax</a>):<br />
 <pre>
 <input type="text" size="80" name="JSON path" placeholder="JSON path..." value="{{ .JSONPath }}"><br />
 <input type="submit" value="Evaluate">

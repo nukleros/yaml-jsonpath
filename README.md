@@ -1,9 +1,13 @@
 # YAML JSONPath
 
-[![GoDoc](https://godoc.org/github.com/vmware-labs/yaml-jsonpath?status.svg)](https://godoc.org/github.com/vmware-labs/yaml-jsonpath)
-[![Go Report Card](https://goreportcard.com/badge/vmware-labs/yaml-jsonpath)](https://goreportcard.com/report/vmware-labs/yaml-jsonpath)
+[![GoDoc](https://godoc.org/github.com/nukleros/yaml-jsonpath?status.svg)](https://godoc.org/github.com/nukleros/yaml-jsonpath)
+[![Go Report Card](https://goreportcard.com/badge/nukleros/yaml-jsonpath)](https://goreportcard.com/report/nukleros/yaml-jsonpath)
 
 JSONPath implementation for the [YAML node](https://godoc.org/gopkg.in/yaml.v3#Node) API.
+
+## Original
+
+This package was originated from github.com/vmware-labs/yaml-jsonpath
 
 ## Syntax
 
@@ -183,8 +187,6 @@ Check linting (so you don't get caught out by CI), after installing [golangci-li
 Fuzzing is also [available](./pkg/yamlpath/fuzz/README.md).
 
 ## Contributing
-
-The yaml-jsonpath project team welcomes contributions from the community. If you wish to contribute code and you have not signed our contributor license agreement (CLA), our bot will update the issue when you open a Pull Request. For any questions about the CLA process, please refer to our [FAQ](https://cla.vmware.com/faq).
 
 For more detailed information, refer to [CONTRIBUTING.md](CONTRIBUTING.md).
 

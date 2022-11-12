@@ -1,8 +1,6 @@
-/*
- * Copyright 2020 VMware, Inc.
- *
- * SPDX-License-Identifier: Apache-2.0
- */
+// Copyright 2022 Nukleros
+// Copyright 2021-2022 VMware, Inc.
+// SPDX-License-Identifier: MIT
 
 package yamlpath_test
 
@@ -10,8 +8,8 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/nukleros/yaml-jsonpath/pkg/yamlpath"
 	"github.com/stretchr/testify/require"
-	"github.com/vmware-labs/yaml-jsonpath/pkg/yamlpath"
 	"gopkg.in/yaml.v3"
 )
 
